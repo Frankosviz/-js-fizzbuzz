@@ -16,14 +16,18 @@
 
     //  Contatore - Condizione - Incremento
      for (let i = 1; i <= num100; i++) {
+
             
          if (i % 3 === 0 && i % 5 === 0) {
+
 
     // Adesso tramite i backtick scriviamo nel quadrato fizzbuzz (esclusivamente i multipli di 3 e 5)
 
             tmpHtml += `<div class="box">${'fizzBuzz'}</div>`;
 
             console.log("fizzBuzz");
+
+            // E così via...
 
          } else if (i % 3 === 0) {
 
@@ -43,7 +47,7 @@
 
             console.log(i);
          }
-        
+
     }
 
     
