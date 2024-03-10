@@ -58,37 +58,33 @@
 
 // template quadratini - Esercizio svolto in classe
 
-/* <div id="boxes" class="d-flex justify-content-center align-content-center gap-2  ">
-            <div class="box">
+//<div id="boxes" class="d-flex justify-content-center align-content-center ">
+            //<div class="box">
 
-            </div>
+            //</div>
+    //</div> 
 
-            <div class="box">
+//  const squareWrapper = document.createElement('div');
 
-            </div>
-    </div> */
+//  // consolidato che squareWrapper è un oggetto
+//  squareWrapper.className = 'd-flex justify-content-between align-content-center flex-wrap container'
+//  // con className andiamo ad incollare le classi di html da Js
+//  squareWrapper.setAttribute('id','boxes');
+//  //console.dir(squareWrapper);
 
-// const squareWrapper = document.createElement('div');
-// console.log(typeof squareWrapper);
-// // consolidato che squareWrapper è un oggetto
-// squareWrapper.className = 'd-flex justify-content-between align-content-center flex-wrap'
-// // con className andiamo ad incollare le classi di html da Js
-// squareWrapper.setAttribute('id','boxes');
-// //console.dir(squareWrapper);
-
-// let numBox = 100; 
-// let tmpHtml = ''; //variabile preparata per contenere l'html
+//  let numBox = 100; 
+//  let tmpHtml = ''; //variabile preparata per contenere l'html
 
 // // Facciamo un ciclo per stampare tutti i quadrati
 
-// for(let i = 0; i < numBox; i++){
-//     tmpHtml += `<div class="box">${i + 1}</div>`;
-// }
+//  for(let i = 0; i < numBox; i++){
+//      tmpHtml += `<div class="box">${i + 1}</div>`;
+//  }
 
-// squareWrapper.innerHTML = tmpHtml;
-// console.log(squareWrapper);
+//  squareWrapper.innerHTML = tmpHtml;
+// // console.log(squareWrapper);
 
-// // mettiamo la griglia con i quadrati gia pronta tutta dentro la pagina html
+// // // mettiamo la griglia con i quadrati gia pronta tutta dentro la pagina html
 
-// const container = document.querySelector('.container');
-// container.append(squareWrapper);
+//  const container = document.querySelector('.container');
+//  container.append(squareWrapper);

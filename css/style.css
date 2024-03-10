@@ -1,0 +1,50 @@
+.box {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+#boxes{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fizz {
+    background-color: rgb(45, 105, 45);
+}
+
+.buzz {
+    background-color: orange;
+}
+
+.fizzbuzz {
+    background-color: rgb(150, 57, 57);
+}
+
+
+ .box:hover {
+    border-radius: 50%;
+    color: white;
+} 
+
+
+
+/* @keyframes pippo {
+    0%  {background-color: blue;}
+    10% {background-color: aqua;}
+    30% {background-color: lightblue;}
+    50% {background-color: white;}
+    75% {background-color: red;}
+    100% {background-color: orange;}
+} */
