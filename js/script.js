@@ -23,7 +23,7 @@
 
     // Adesso tramite i backtick scriviamo nel quadrato fizzbuzz (esclusivamente i multipli di 3 e 5)
 
-            tmpHtml += `<div class="box">${'fizzBuzz'}</div>`;
+            tmpHtml += `<div class="box fizzbuzz">${'fizzBuzz'}</div>`;
 
             console.log("fizzBuzz");
 
@@ -31,13 +31,13 @@
 
          } else if (i % 3 === 0) {
 
-            tmpHtml += `<div class="box">${'fizz'}</div>`;
+            tmpHtml += `<div class="box fizz">${'fizz'}</div>`;
             
             console.log("fizz");
 
          } else if (i % 5 === 0) {
              
-            tmpHtml += `<div class="box">${'buzz'}</div>`;
+            tmpHtml += `<div class="box buzz">${'buzz'}</div>`;
             
             console.log("buzz");
 
